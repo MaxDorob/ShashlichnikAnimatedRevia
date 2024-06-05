@@ -7,11 +7,7 @@
     <match Class="PatchOperationAdd">
       <xpath>
         /Defs/HediffDef[
-        defName="ReviaRaceSoulreapTier1"
-        or defName="ReviaRaceSoulreapTier2"
-        or defName="ReviaRaceSoulreapTier3"
-        or defName="ReviaRaceSoulreapTier4"
-        or defName="ReviaRaceSoulreapTier5"
+           defName="ReviaRaceSoulreapTier5"
         or defName="ReviaRaceSoulreapTier6"
         or defName="ReviaRaceSoulreapTier7"
         or defName="ReviaRaceSoulreapTier8"
@@ -19,6 +15,8 @@
         ]/renderNodeProperties</xpath>
       <value>
         <li Class="Shashlichnik.PawnRenderNodeProperties_Animated">
+          <!--Tail 5-->
+          <debugLabel>Tail5</debugLabel>
           <texPath>Things/Animated/Tail/Tail1/1</texPath>
           <colorType>Hair</colorType>
           <overrideMeshSize>(1, 1)</overrideMeshSize>
@@ -27,24 +25,25 @@
           <shaderTypeDef>CutoutComplex</shaderTypeDef>
           <drawData>
             <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
-            <scale>1.70</scale>
+            <scale>2.00</scale>
             <defaultData>
-              <layer>-10</layer>
+              <rotationOffset>335</rotationOffset>
+              <layer>-17</layer>
             </defaultData>
             <dataNorth>
               <offset>(-0.09, 0.03, -0.57)</offset>
-              <layer>-10</layer>
             </dataNorth>
             <dataSouth>
               <offset>(-0.05, 0, -0.12)</offset>
             </dataSouth>
             <dataEast>
-              <offset>(-0.35, 0, -0.57)</offset>
+              <offset>(-0.20, 0, -0.57)</offset>
             </dataEast>
             <dataWest>
-              <offset>(0.35, 0, -0.45)</offset>
+              <offset>(0.20, 0, -0.45)</offset>
             </dataWest>
           </drawData>
+          <tickOffset>15</tickOffset>
           <keyframes>
             <li>
               <tick>0</tick>
