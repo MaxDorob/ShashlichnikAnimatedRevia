@@ -1,159 +1,164 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Revia Race - biotech</li>
-    </mods>
-    <match Class="PatchOperationAdd">
-      <xpath>
-        /Defs/HediffDef[
-           defName="ReviaRaceSoulreapTier4"
-        or defName="ReviaRaceSoulreapTier5"
-        or defName="ReviaRaceSoulreapTier6"
-        or defName="ReviaRaceSoulreapTier7"
-        or defName="ReviaRaceSoulreapTier8"
-        or defName="ReviaRaceSoulreapTier9"
-        ]/renderNodeProperties</xpath>
-      <value>
-        <li Class="Shashlichnik.PawnRenderNodeProperties_Animated">
-          <!--Tail 4-->
-          <debugLabel>Tail4</debugLabel>
-          <texPath>Things/Animated/Tail/Tail1/1</texPath>
-          <colorType>Hair</colorType>
-          <overrideMeshSize>(1, 1)</overrideMeshSize>
-          <parentTagDef>Body</parentTagDef>
-          <rotDrawMode>Fresh, Rotting</rotDrawMode>
-          <shaderTypeDef>CutoutComplex</shaderTypeDef>
-          <drawData>
-            <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
-            <scale>2.10</scale>
-            <defaultData>
-              <rotationOffset>23</rotationOffset>
-              <layer>-18</layer>
-            </defaultData>
-            <dataNorth>
-              <offset>(-0.09, 0.03, -0.57)</offset>
-            </dataNorth>
-            <dataSouth>
-              <offset>(-0.05, 0, -0.12)</offset>
-            </dataSouth>
-            <dataEast>
-              <offset>(-0.20, 0, -0.57)</offset>
-            </dataEast>
-            <dataWest>
-              <offset>(0.20, 0, -0.45)</offset>
-            </dataWest>
-          </drawData>
-          <tickOffset>9</tickOffset>
-          <keyframes>
-            <li>
-              <tick>0</tick>
-              <texPath>Things/Animated/Tail/Tail1/1</texPath>
-            </li>
-            <li>
-              <tick>3</tick>
-              <texPath>Things/Animated/Tail/Tail1/2</texPath>
-            </li>
-            <li>
-              <tick>6</tick>
-              <texPath>Things/Animated/Tail/Tail1/3</texPath>
-            </li>
-            <li>
-              <tick>9</tick>
-              <texPath>Things/Animated/Tail/Tail1/4</texPath>
-            </li>
-            <li>
-              <tick>12</tick>
-              <texPath>Things/Animated/Tail/Tail1/5</texPath>
-            </li>
-            <li>
-              <tick>15</tick>
-              <texPath>Things/Animated/Tail/Tail1/6</texPath>
-            </li>
-            <li>
-              <tick>18</tick>
-              <texPath>Things/Animated/Tail/Tail1/7</texPath>
-            </li>
-            <li>
-              <tick>21</tick>
-              <texPath>Things/Animated/Tail/Tail1/8</texPath>
-            </li>
-            <li>
-              <tick>24</tick>
-              <texPath>Things/Animated/Tail/Tail1/9</texPath>
-            </li>
-            <li>
-              <tick>27</tick>
-              <texPath>Things/Animated/Tail/Tail1/10</texPath>
-            </li>
-            <li>
-              <tick>30</tick>
-              <texPath>Things/Animated/Tail/Tail1/11</texPath>
-            </li>
-            <li>
-              <tick>33</tick>
-              <texPath>Things/Animated/Tail/Tail1/12</texPath>
-            </li>
-            <li>
-              <tick>36</tick>
-              <texPath>Things/Animated/Tail/Tail1/13</texPath>
-            </li>
-            <li>
-              <tick>39</tick>
-              <texPath>Things/Animated/Tail/Tail1/14</texPath>
-            </li>
-            <li>
-              <tick>45</tick>
-              <texPath>Things/Animated/Tail/Tail1/15</texPath>
-            </li>
-            <li>
-              <tick>48</tick>
-              <texPath>Things/Animated/Tail/Tail1/16</texPath>
-            </li>
-            <li>
-              <tick>51</tick>
-              <texPath>Things/Animated/Tail/Tail1/17</texPath>
-            </li>
-            <li>
-              <tick>54</tick>
-              <texPath>Things/Animated/Tail/Tail1/18</texPath>
-            </li>
-            <li>
-              <tick>57</tick>
-              <texPath>Things/Animated/Tail/Tail1/19</texPath>
-            </li>
-            <li>
-              <tick>60</tick>
-              <texPath>Things/Animated/Tail/Tail1/20</texPath>
-            </li>
-            <li>
-              <tick>63</tick>
-              <texPath>Things/Animated/Tail/Tail1/21</texPath>
-            </li>
-            <li>
-              <tick>66</tick>
-              <texPath>Things/Animated/Tail/Tail1/22</texPath>
-            </li>
-            <li>
-              <tick>69</tick>
-              <texPath>Things/Animated/Tail/Tail1/23</texPath>
-            </li>
-            <li>
-              <tick>72</tick>
-              <texPath>Things/Animated/Tail/Tail1/24</texPath>
-            </li>
-            <li>
-              <tick>75</tick>
-              <texPath>Things/Animated/Tail/Tail1/25</texPath>
-            </li>
-            <li>
-              <tick>78</tick>
-              <texPath>Things/Animated/Tail/Tail1/26</texPath>
-            </li>
-          </keyframes>
-        </li>
-      </value>
-    </match>
-    <success>Always</success>
-  </Operation>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Revia Race - biotech</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>
+				/Defs/HediffDef[
+				defName="ReviaRaceSoulreapTier4"
+				or defName="ReviaRaceSoulreapTier5"
+				or defName="ReviaRaceSoulreapTier6"
+				or defName="ReviaRaceSoulreapTier7"
+				or defName="ReviaRaceSoulreapTier8"
+				or defName="ReviaRaceSoulreapTier9"
+				]/renderNodeProperties
+			</xpath>
+			<value>
+				<li Class="Shashlichnik.PawnRenderNodeProperties_Animated">
+					<!--Tail 4-->
+					<debugLabel>Tail4</debugLabel>
+					<texPath>Things/Animated/Tail/Tail1/1</texPath>
+					<colorType>Hair</colorType>
+					<overrideMeshSize>(1, 1)</overrideMeshSize>
+					<parentTagDef>Body</parentTagDef>
+					<rotDrawMode>Fresh, Rotting</rotDrawMode>
+					<shaderTypeDef>CutoutComplex</shaderTypeDef>
+					<drawData>
+						<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+						<scale>2.10</scale>
+						<defaultData>
+							<rotationOffset>23</rotationOffset>
+							<layer>-18</layer>
+						</defaultData>
+						<dataNorth>
+							<offset>(-0.09, 0.03, -0.57)</offset>
+						</dataNorth>
+						<dataSouth>
+							<offset>(-0.05, 0, -0.12)</offset>
+						</dataSouth>
+						<dataEast>
+							<offset>(-0.20, 0, -0.57)</offset>
+						</dataEast>
+						<dataWest>
+							<offset>(0.20, 0, -0.45)</offset>
+						</dataWest>
+					</drawData>
+					<keyframeLines>
+						<li>
+							<tickOffset>9</tickOffset>
+							<keyframes>
+								<li>
+									<tick>0</tick>
+									<texPath>Things/Animated/Tail/Tail1/1</texPath>
+								</li>
+								<li>
+									<tick>3</tick>
+									<texPath>Things/Animated/Tail/Tail1/2</texPath>
+								</li>
+								<li>
+									<tick>6</tick>
+									<texPath>Things/Animated/Tail/Tail1/3</texPath>
+								</li>
+								<li>
+									<tick>9</tick>
+									<texPath>Things/Animated/Tail/Tail1/4</texPath>
+								</li>
+								<li>
+									<tick>12</tick>
+									<texPath>Things/Animated/Tail/Tail1/5</texPath>
+								</li>
+								<li>
+									<tick>15</tick>
+									<texPath>Things/Animated/Tail/Tail1/6</texPath>
+								</li>
+								<li>
+									<tick>18</tick>
+									<texPath>Things/Animated/Tail/Tail1/7</texPath>
+								</li>
+								<li>
+									<tick>21</tick>
+									<texPath>Things/Animated/Tail/Tail1/8</texPath>
+								</li>
+								<li>
+									<tick>24</tick>
+									<texPath>Things/Animated/Tail/Tail1/9</texPath>
+								</li>
+								<li>
+									<tick>27</tick>
+									<texPath>Things/Animated/Tail/Tail1/10</texPath>
+								</li>
+								<li>
+									<tick>30</tick>
+									<texPath>Things/Animated/Tail/Tail1/11</texPath>
+								</li>
+								<li>
+									<tick>33</tick>
+									<texPath>Things/Animated/Tail/Tail1/12</texPath>
+								</li>
+								<li>
+									<tick>36</tick>
+									<texPath>Things/Animated/Tail/Tail1/13</texPath>
+								</li>
+								<li>
+									<tick>39</tick>
+									<texPath>Things/Animated/Tail/Tail1/14</texPath>
+								</li>
+								<li>
+									<tick>45</tick>
+									<texPath>Things/Animated/Tail/Tail1/15</texPath>
+								</li>
+								<li>
+									<tick>48</tick>
+									<texPath>Things/Animated/Tail/Tail1/16</texPath>
+								</li>
+								<li>
+									<tick>51</tick>
+									<texPath>Things/Animated/Tail/Tail1/17</texPath>
+								</li>
+								<li>
+									<tick>54</tick>
+									<texPath>Things/Animated/Tail/Tail1/18</texPath>
+								</li>
+								<li>
+									<tick>57</tick>
+									<texPath>Things/Animated/Tail/Tail1/19</texPath>
+								</li>
+								<li>
+									<tick>60</tick>
+									<texPath>Things/Animated/Tail/Tail1/20</texPath>
+								</li>
+								<li>
+									<tick>63</tick>
+									<texPath>Things/Animated/Tail/Tail1/21</texPath>
+								</li>
+								<li>
+									<tick>66</tick>
+									<texPath>Things/Animated/Tail/Tail1/22</texPath>
+								</li>
+								<li>
+									<tick>69</tick>
+									<texPath>Things/Animated/Tail/Tail1/23</texPath>
+								</li>
+								<li>
+									<tick>72</tick>
+									<texPath>Things/Animated/Tail/Tail1/24</texPath>
+								</li>
+								<li>
+									<tick>75</tick>
+									<texPath>Things/Animated/Tail/Tail1/25</texPath>
+								</li>
+								<li>
+									<tick>78</tick>
+									<texPath>Things/Animated/Tail/Tail1/26</texPath>
+								</li>
+							</keyframes>
+						</li>
+					</keyframeLines>
+				</li>
+			</value>
+		</match>
+		<success>Always</success>
+	</Operation>
 </Patch>
