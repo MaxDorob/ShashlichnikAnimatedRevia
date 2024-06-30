@@ -154,6 +154,10 @@
 								</li>
 							</keyframes>
 						</li>
+						<li>
+							<keyframesTexPath>Things/Animated/Tail/Left4/</keyframesTexPath>
+							<keyframesCount>70</keyframesCount>
+						</li>
 					</keyframeLines>
 				</li>
 			</value>
