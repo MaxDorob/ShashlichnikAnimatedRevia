@@ -40,7 +40,7 @@
 					</drawData>
 					<keyframeLines>
 						<li>
-							<tickOffset>24</tickOffset>
+							<tickOffset>120</tickOffset>
 							<keyframesTexPath>Things/Animated/Tail/Tail1/</keyframesTexPath>
 							<keyframesCount>40</keyframesCount>
 							<drawData>
