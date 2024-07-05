@@ -32,7 +32,6 @@
 						<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
 						<scale>2.10</scale>
 						<defaultData>
-							<rotationOffset>23</rotationOffset>
 							<layer>-18</layer>
 						</defaultData>
 						<dataNorth>
@@ -42,10 +41,10 @@
 							<offset>(-0.05, 0, -0.12)</offset>
 						</dataSouth>
 						<dataEast>
-							<offset>(-0.20, 0, -0.57)</offset>
+							<offset>(-0.20, 0, -0.42)</offset>
 						</dataEast>
 						<dataWest>
-							<offset>(0.20, 0, -0.45)</offset>
+							<offset>(0.20, 0, -0.42)</offset>
 						</dataWest>
 					</drawData>
 					<keyframeLines>
@@ -53,6 +52,11 @@
 							<tickOffset>9</tickOffset>
 							<keyframesTexPath>Things/Animated/Tail/Tail1/</keyframesTexPath>
 							<keyframesCount>40</keyframesCount>
+							<drawData>
+								<defaultData>
+									<rotationOffset>23</rotationOffset>
+								</defaultData>
+							</drawData>
 						</li>
 						<li>
 							<keyframesTexPath>Things/Animated/Tail/Left2/</keyframesTexPath>
