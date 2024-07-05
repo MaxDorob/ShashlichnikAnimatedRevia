@@ -45,12 +45,12 @@
 					</drawData>
 					<keyframeLines>
 						<li>
-							<tickOffset>-12</tickOffset>
+							<tickOffset>12</tickOffset>
 							<keyframesTexPath>Things/Animated/Tail/Tail1/</keyframesTexPath>
 							<keyframesCount>40</keyframesCount>
 							<drawData>
 								<defaultData>
-									<rotationOffset>325</rotationOffset>
+									<rotationOffset>58</rotationOffset>
 								</defaultData>
 							</drawData>
 						</li>

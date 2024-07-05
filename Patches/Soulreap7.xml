@@ -27,7 +27,7 @@
 					</subworkerClasses>
 					<drawData>
 						<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
-						<scale>1.65</scale>
+						<scale>1.95</scale>
 						<defaultData>
 							<layer>-17</layer>
 						</defaultData>
@@ -51,7 +51,7 @@
 							<keyframesCount>40</keyframesCount>
 							<drawData>
 								<defaultData>
-									<rotationOffset>37</rotationOffset>
+									<rotationOffset>306</rotationOffset>
 								</defaultData>
 							</drawData>
 						</li>
