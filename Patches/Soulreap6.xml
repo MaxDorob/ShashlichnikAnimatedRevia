@@ -30,7 +30,7 @@
 						<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
 						<scale>2.0</scale>
 						<defaultData>
-							<layer>-16</layer>
+							<layer>-13</layer>
 						</defaultData>
 						<dataNorth>
 							<offset>(-0.02, 0.03, -0.57)</offset>
