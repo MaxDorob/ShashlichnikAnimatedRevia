@@ -57,6 +57,15 @@
 						<li>
 							<keyframesTexPath>Things/Animated/Tail/Left4/</keyframesTexPath>
 							<keyframesCount>70</keyframesCount>
+							<drawData>
+								<dataEast>
+									<layer>-19</layer>
+								</dataEast>
+								<dataWest>
+									<layer>-11</layer>
+									<rotationOffset>75</rotationOffset>
+								</dataWest>
+							</drawData>
 						</li>
 					</keyframeLines>
 				</li>

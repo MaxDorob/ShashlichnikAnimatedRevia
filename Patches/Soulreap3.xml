@@ -62,6 +62,14 @@
 						<li>
 							<keyframesTexPath>Things/Animated/Tail/Right1/</keyframesTexPath>
 							<keyframesCount>70</keyframesCount>
+							<drawData>
+								<dataEast>
+									<layer>-11</layer>
+								</dataEast>
+								<dataWest>
+									<layer>-19</layer>
+								</dataWest>
+							</drawData>
 						</li>
 					</keyframeLines>
 				</li>

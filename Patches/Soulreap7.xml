@@ -58,6 +58,15 @@
 						<li>
 							<keyframesTexPath>Things/Animated/Tail/Right3/</keyframesTexPath>
 							<keyframesCount>70</keyframesCount>
+							<drawData>
+								<dataEast>
+									<layer>-11</layer>
+								</dataEast>
+								<dataWest>
+									<layer>-19</layer>
+									<rotationOffset>349</rotationOffset>
+								</dataWest>
+							</drawData>
 						</li>
 					</keyframeLines>
 				</li>
