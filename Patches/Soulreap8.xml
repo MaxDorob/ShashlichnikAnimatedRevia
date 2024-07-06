@@ -60,6 +60,7 @@
 							<drawData>
 								<dataEast>
 									<layer>-19</layer>
+									<rotationOffset>285</rotationOffset>
 								</dataEast>
 								<dataWest>
 									<layer>-11</layer>
