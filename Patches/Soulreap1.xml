@@ -33,7 +33,6 @@
 					</subworkerClasses>
 					<drawData>
 						<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
-						<scale>2.23</scale>
 						<defaultData>
 							<layer>-10</layer>
 						</defaultData>
@@ -54,10 +53,16 @@
 						<li>
 							<keyframesTexPath>Things/Animated/Tail/Tail1/</keyframesTexPath>
 							<keyframesCount>40</keyframesCount>
+							<drawData>
+								<scale>2.23</scale>
+							</drawData>
 						</li>
 						<li>
 							<keyframesTexPath>Things/Animated/Tail/Core/</keyframesTexPath>
 							<keyframesCount>70</keyframesCount>
+							<drawData>
+								<scale>2.1</scale>
+							</drawData>
 						</li>
 					</keyframeLines>
 				</li>

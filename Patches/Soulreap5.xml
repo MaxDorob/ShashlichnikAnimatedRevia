@@ -29,7 +29,6 @@
 					</subworkerClasses>
 					<drawData>
 						<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
-						<scale>2.00</scale>
 						<defaultData>
 							<layer>-11</layer>
 						</defaultData>
@@ -52,6 +51,7 @@
 							<keyframesTexPath>Things/Animated/Tail/Tail1/</keyframesTexPath>
 							<keyframesCount>40</keyframesCount>
 							<drawData>
+								<scale>2.00</scale>
 								<defaultData>
 									<rotationOffset>325</rotationOffset>
 								</defaultData>
@@ -61,6 +61,7 @@
 							<keyframesTexPath>Things/Animated/Tail/Right2/</keyframesTexPath>
 							<keyframesCount>70</keyframesCount>
 							<drawData>
+								<scale>2.1</scale>
 								<dataEast>
 									<layer>-11</layer>
 									<rotationOffset>351</rotationOffset>
