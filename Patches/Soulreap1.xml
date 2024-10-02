@@ -30,6 +30,7 @@
 					<shaderTypeDef>CutoutComplex</shaderTypeDef>
 					<subworkerClasses>
 						<li>Shashlichnik.PawnRenderSubWorker_RotateByRot</li>
+						<li>Shashlichnik.PawnRenderSubWorker_AttachmentBody</li>
 					</subworkerClasses>
 					<drawData>
 						<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
