@@ -31,6 +31,7 @@
 					<subworkerClasses>
 						<li>Shashlichnik.PawnRenderSubWorker_RotateByRot</li>
 						<li>Shashlichnik.PawnRenderSubWorker_AttachmentBody</li>
+						<li>Shashlichnik.PawnRenderSubWorker_ExposableDrawData</li>
 					</subworkerClasses>
 					<drawData>
 						<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
