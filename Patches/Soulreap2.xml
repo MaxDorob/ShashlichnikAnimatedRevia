@@ -1,87 +1,82 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>Revia Race - biotech</li>
-		</mods>
-		<match Class="PatchOperationAdd">
-			<xpath>
-				/Defs/HediffDef[
-				defName="ReviaRaceSoulreapTier2"
-				or defName="ReviaRaceSoulreapTier3"
-				or defName="ReviaRaceSoulreapTier4"
-				or defName="ReviaRaceSoulreapTier5"
-				or defName="ReviaRaceSoulreapTier6"
-				or defName="ReviaRaceSoulreapTier7"
-				or defName="ReviaRaceSoulreapTier8"
-				or defName="ReviaRaceSoulreapTier9"
-				]/renderNodeProperties
-			</xpath>
-			<value>
-				<li Class="Shashlichnik.PawnRenderNodeProperties_Animated">
-					<!--Tail 2-->
-					<debugLabel>Tail2</debugLabel>
-					<texPath>Things/Animated/Tail/Tail1/1</texPath>
-					<colorType>Hair</colorType>
-					<overrideMeshSize>(1, 1)</overrideMeshSize>
-					<parentTagDef>Body</parentTagDef>
-					<rotDrawMode>Fresh, Rotting</rotDrawMode>
-					<shaderTypeDef>CutoutComplex</shaderTypeDef>
-					<subworkerClasses>
-						<li>Shashlichnik.PawnRenderSubWorker_RotateByRot</li>
-						<li>Shashlichnik.PawnRenderSubWorker_AttachmentBody</li>
-						<li>Shashlichnik.PawnRenderSubWorker_ExposableDrawData</li>
-					</subworkerClasses>
-					<drawData>
-						<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
-						<defaultData>
-							<layer>-12</layer>
-						</defaultData>
-						<dataNorth>
-							<offset>(-0.02, 0.03, -0.57)</offset>
-						</dataNorth>
-						<dataSouth>
-							<offset>(-0.05, 0, -0.12)</offset>
-						</dataSouth>
-						<dataEast>
-							<offset>(-0.20, 0, -0.42)</offset>
-						</dataEast>
-						<dataWest>
-							<offset>(0.20, 0, -0.42)</offset>
-						</dataWest>
-					</drawData>
-					<keyframeLines>
-						<li>
-							<tickOffset>12</tickOffset>
-							<keyframesTexPath>Things/Animated/Tail/Tail1/</keyframesTexPath>
-							<keyframesCount>40</keyframesCount>
-							<drawData>
-								<scale>2.20</scale>
-								<defaultData>
-									<rotationOffset>18</rotationOffset>
-								</defaultData>
-							</drawData>
-						</li>
-						<li>
-							<keyframesTexPath>Things/Animated/Tail/Left1/</keyframesTexPath>
-							<keyframesCount>70</keyframesCount>
-							<drawData>
-								<scale>2.1</scale>
-								<defaultData>
-									<rotationOffset>356</rotationOffset>
-								</defaultData>
-								<dataEast>
-									<layer>-19</layer>
-								</dataEast>
-								<dataWest>
-									<layer>-11</layer>
-								</dataWest>
-							</drawData>
-						</li>
-					</keyframeLines>
-				</li>
-			</value>
-		</match>
-		<success>Always</success>
+	<Operation Class="PatchOperationAdd">
+		<xpath>
+			/Defs/HediffDef[
+			defName="ReviaRaceSoulreapTier2"
+			or defName="ReviaRaceSoulreapTier3"
+			or defName="ReviaRaceSoulreapTier4"
+			or defName="ReviaRaceSoulreapTier5"
+			or defName="ReviaRaceSoulreapTier6"
+			or defName="ReviaRaceSoulreapTier7"
+			or defName="ReviaRaceSoulreapTier8"
+			or defName="ReviaRaceSoulreapTier9"
+			]/renderNodeProperties
+		</xpath>
+		<value>
+			<li Class="Shashlichnik.PawnRenderNodeProperties_Animated">
+				<!--Tail 2-->
+				<debugLabel>Tail2</debugLabel>
+				<texPath>Things/Animated/Tail/Tail1/1</texPath>
+				<colorType>Hair</colorType>
+				<overrideMeshSize>(1, 1)</overrideMeshSize>
+				<parentTagDef>Body</parentTagDef>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<shaderTypeDef>CutoutComplex</shaderTypeDef>
+				<subworkerClasses>
+					<li>Shashlichnik.PawnRenderSubWorker_RotateByRot</li>
+					<li>Shashlichnik.PawnRenderSubWorker_AttachmentBody</li>
+					<li>Shashlichnik.PawnRenderSubWorker_ExposableDrawData</li>
+				</subworkerClasses>
+				<drawData>
+					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+					<defaultData>
+						<layer>-12</layer>
+					</defaultData>
+					<dataNorth>
+						<offset>(-0.02, 0.03, -0.57)</offset>
+					</dataNorth>
+					<dataSouth>
+						<offset>(-0.05, 0, -0.12)</offset>
+					</dataSouth>
+					<dataEast>
+						<offset>(-0.20, 0, -0.42)</offset>
+					</dataEast>
+					<dataWest>
+						<offset>(0.20, 0, -0.42)</offset>
+					</dataWest>
+				</drawData>
+				<keyframeLines>
+					<li>
+						<tickOffset>12</tickOffset>
+						<keyframesTexPath>Things/Animated/Tail/Tail1/</keyframesTexPath>
+						<keyframesCount>40</keyframesCount>
+						<drawData>
+							<scale>2.20</scale>
+							<defaultData>
+								<rotationOffset>18</rotationOffset>
+							</defaultData>
+						</drawData>
+					</li>
+					<li>
+						<keyframesTexPath>Things/Animated/Tail/Left1/</keyframesTexPath>
+						<keyframesCount>70</keyframesCount>
+						<drawData>
+							<scale>2.1</scale>
+							<defaultData>
+								<rotationOffset>356</rotationOffset>
+							</defaultData>
+							<dataEast>
+								<layer>-19</layer>
+							</dataEast>
+							<dataWest>
+								<layer>-11</layer>
+							</dataWest>
+						</drawData>
+					</li>
+				</keyframeLines>
+				<linkedBodyPartsGroup MayRequire="FS.ReviaRace">ReviaTail</linkedBodyPartsGroup>
+			</li>
+		</value>
 	</Operation>
 </Patch>

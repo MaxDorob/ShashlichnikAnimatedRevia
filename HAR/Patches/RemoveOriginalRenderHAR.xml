@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Revia Race</li>
+		</mods>
+		
+		<!--Is it just visual, right?-->
+		<match Class="PatchOperationRemove">
+			<xpath>/Defs/*[local-name()='AlienRace.ThingDef_AlienRace' and defName="ReviaRaceAlien"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[conditions/BodyPart/bodyPart="ReviaRaceTail"]</xpath>
+		</match>
+		
+	</Operation>
+</Patch>

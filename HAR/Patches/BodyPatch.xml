@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BodyDef/corePart/parts/li[def="ReviaRaceTail"]/groups</xpath>
+    <value>
+      <li>ReviaTail</li>
+    </value>
+  </Operation>
+  
+</Patch>

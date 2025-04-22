@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+		<xpath>
+			/Defs/HediffDef[
+			defName="ReviaRaceSoulreapTier1"
+			or defName="ReviaRaceSoulreapTier2"
+			or defName="ReviaRaceSoulreapTier3"
+			or defName="ReviaRaceSoulreapTier4"
+			or defName="ReviaRaceSoulreapTier5"
+			or defName="ReviaRaceSoulreapTier6"
+			or defName="ReviaRaceSoulreapTier7"
+			or defName="ReviaRaceSoulreapTier8"
+			or defName="ReviaRaceSoulreapTier9"
+			]/renderNodeProperties
+		</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>
+        /Defs/HediffDef[
+        defName="ReviaRaceSoulreapTier1"
+        or defName="ReviaRaceSoulreapTier2"
+        or defName="ReviaRaceSoulreapTier3"
+        or defName="ReviaRaceSoulreapTier4"
+        or defName="ReviaRaceSoulreapTier5"
+        or defName="ReviaRaceSoulreapTier6"
+        or defName="ReviaRaceSoulreapTier7"
+        or defName="ReviaRaceSoulreapTier8"
+        or defName="ReviaRaceSoulreapTier9"
+        ]</xpath>
+			<value>
+				<renderNodeProperties/>
+			</value>
+    </nomatch>
+    <success>Always</success>
+  </Operation>
+</Patch>
