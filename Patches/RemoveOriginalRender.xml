@@ -3,6 +3,7 @@
   <Operation Class="PatchOperationFindMod">
     <mods>
       <li>Revia Race - biotech</li>
+			<li>Revia Race - Biotech</li>
     </mods>
     <match Class="PatchOperationRemove">
       <xpath>
