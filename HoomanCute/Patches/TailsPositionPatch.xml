@@ -28,6 +28,72 @@
 			<offset>(0.14, 0.00, -0.24)</offset>
 		</value>
 	</Operation>
+	
+	
+	<!--Layer-->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/*[defName="ReviaRaceSoulreapTier1" or defName="ReviaRaceSoulreapTier2" or defName="ReviaRaceSoulreapTier3" or defName="ReviaRaceSoulreapTier4" or defName="ReviaRaceSoulreapTier5" or defName="ReviaRaceSoulreapTier6" or defName="ReviaRaceSoulreapTier7" or defName="ReviaRaceSoulreapTier8" or defName="ReviaRaceSoulreapTier9"]/renderNodeProperties/li[debugLabel="Tail1"]/drawData/dataNorth</xpath>
+		<value>
+			<layer>90</layer>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/*[defName="ReviaRaceSoulreapTier1" or defName="ReviaRaceSoulreapTier2" or defName="ReviaRaceSoulreapTier3" or defName="ReviaRaceSoulreapTier4" or defName="ReviaRaceSoulreapTier5" or defName="ReviaRaceSoulreapTier6" or defName="ReviaRaceSoulreapTier7" or defName="ReviaRaceSoulreapTier8" or defName="ReviaRaceSoulreapTier9"]/renderNodeProperties/li[debugLabel="Tail2"]/drawData/dataNorth</xpath>
+		<value>
+			<layer>92</layer>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/*[defName="ReviaRaceSoulreapTier1" or defName="ReviaRaceSoulreapTier2" or defName="ReviaRaceSoulreapTier3" or defName="ReviaRaceSoulreapTier4" or defName="ReviaRaceSoulreapTier5" or defName="ReviaRaceSoulreapTier6" or defName="ReviaRaceSoulreapTier7" or defName="ReviaRaceSoulreapTier8" or defName="ReviaRaceSoulreapTier9"]/renderNodeProperties/li[debugLabel="Tail3"]/drawData/dataNorth</xpath>
+		<value>
+			<layer>93</layer>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/*[defName="ReviaRaceSoulreapTier1" or defName="ReviaRaceSoulreapTier2" or defName="ReviaRaceSoulreapTier3" or defName="ReviaRaceSoulreapTier4" or defName="ReviaRaceSoulreapTier5" or defName="ReviaRaceSoulreapTier6" or defName="ReviaRaceSoulreapTier7" or defName="ReviaRaceSoulreapTier8" or defName="ReviaRaceSoulreapTier9"]/renderNodeProperties/li[debugLabel="Tail4"]/drawData/dataNorth</xpath>
+		<value>
+			<layer>94</layer>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/*[defName="ReviaRaceSoulreapTier1" or defName="ReviaRaceSoulreapTier2" or defName="ReviaRaceSoulreapTier3" or defName="ReviaRaceSoulreapTier4" or defName="ReviaRaceSoulreapTier5" or defName="ReviaRaceSoulreapTier6" or defName="ReviaRaceSoulreapTier7" or defName="ReviaRaceSoulreapTier8" or defName="ReviaRaceSoulreapTier9"]/renderNodeProperties/li[debugLabel="Tail5"]/drawData/dataNorth</xpath>
+		<value>
+			<layer>91</layer>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/*[defName="ReviaRaceSoulreapTier1" or defName="ReviaRaceSoulreapTier2" or defName="ReviaRaceSoulreapTier3" or defName="ReviaRaceSoulreapTier4" or defName="ReviaRaceSoulreapTier5" or defName="ReviaRaceSoulreapTier6" or defName="ReviaRaceSoulreapTier7" or defName="ReviaRaceSoulreapTier8" or defName="ReviaRaceSoulreapTier9"]/renderNodeProperties/li[debugLabel="Tail6"]/drawData/dataNorth</xpath>
+		<value>
+			<layer>93</layer>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/*[defName="ReviaRaceSoulreapTier1" or defName="ReviaRaceSoulreapTier2" or defName="ReviaRaceSoulreapTier3" or defName="ReviaRaceSoulreapTier4" or defName="ReviaRaceSoulreapTier5" or defName="ReviaRaceSoulreapTier6" or defName="ReviaRaceSoulreapTier7" or defName="ReviaRaceSoulreapTier8" or defName="ReviaRaceSoulreapTier9"]/renderNodeProperties/li[debugLabel="Tail7"]/drawData/dataNorth</xpath>
+		<value>
+			<layer>97</layer>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/*[defName="ReviaRaceSoulreapTier1" or defName="ReviaRaceSoulreapTier2" or defName="ReviaRaceSoulreapTier3" or defName="ReviaRaceSoulreapTier4" or defName="ReviaRaceSoulreapTier5" or defName="ReviaRaceSoulreapTier6" or defName="ReviaRaceSoulreapTier7" or defName="ReviaRaceSoulreapTier8" or defName="ReviaRaceSoulreapTier9"]/renderNodeProperties/li[debugLabel="Tail8"]/drawData/dataNorth</xpath>
+		<value>
+			<layer>98</layer>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/*[defName="ReviaRaceSoulreapTier1" or defName="ReviaRaceSoulreapTier2" or defName="ReviaRaceSoulreapTier3" or defName="ReviaRaceSoulreapTier4" or defName="ReviaRaceSoulreapTier5" or defName="ReviaRaceSoulreapTier6" or defName="ReviaRaceSoulreapTier7" or defName="ReviaRaceSoulreapTier8" or defName="ReviaRaceSoulreapTier9"]/renderNodeProperties/li[debugLabel="Tail9"]/drawData/dataNorth</xpath>
+		<value>
+			<layer>99</layer>
+		</value>
+	</Operation>
 
 
 </Patch>
